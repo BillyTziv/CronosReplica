@@ -1,0 +1,157 @@
+body {
+	background-color: #0F0F0F;
+	height: 100%;
+	margin: auto;
+  	padding: auto;
+	color: white;
+}
+
+#menu {
+	font-family: "Trebuchet MS", "Times New Roman", Arial, Georgia;
+	height: 100%;
+	width: 750px;
+	margin: 0px auto 0px auto;
+	padding: 0px 0px 0px 0px;	
+}
+
+#content {
+	height: 100%;
+	width: 750px;
+	font-family: Consolas, "Trebuchet MS", "Times New Roman", Arial, Georgia;
+	margin: 50px auto auto auto;
+	padding: 10px 20px 10px 20px;
+	border-radius: 4px;
+}
+
+/*****************************************************************************
+* FOOTER
+*****************************************************************************/
+#footer {
+	height: 30px;
+	width: 750px;
+
+	color: white;
+	font-size: 12px;
+	text-align: center;
+
+	margin: 20px auto auto auto;
+	padding: auto;
+}
+
+#menu_ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+#menu_li {
+	float:left;
+}
+
+a:link,a:visited {
+	/* add code */
+	padding:4px;
+	text-decoration:none;
+	color: #BD0909;
+}
+
+a:hover,a:active {
+	/* add core */
+	padding:4px;
+	text-decoration:none;
+	color: #851414;
+}
+
+
+#message {
+	font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, #message {
+	font-family: "Trebuchet MS", "Times New Roman", Arial, Georgia;
+}
+
+#cont {
+	margin: 25px 10px auto 10px;
+}
+
+#form {
+	margin-left: auto ;
+	margin-right: auto ;
+	width: 350px;
+	text-align: center;
+	padding: 15px 10px 15px 10px;
+	border-style: dotted;
+	border-color: red;
+	border-width: 1px;
+	border-radius: 5px;
+}
+/******************************************************************************
+				print results
+******************************************************************************/
+#text_title {
+	text-align: center;
+	width: 500px;
+}
+
+#num_title {
+	text-align: center;
+	width: 100px;
+}
+
+.grade {
+	font-size: 18px;
+	text-align: center;
+	color: green;
+	width: 100px;
+	font-weight: bold;
+}
+
+.course {
+	width: 300px;
+}
+
+.dm {
+	text-align: center;
+	width: 100px;
+}
+
+.ects {
+	text-align: center;
+	width: 100px;
+}
+
+
+.odd_grade {
+	text-align: center;
+	font-size: 18px;
+	color: green;
+	width: 100px;
+	font-weight: bold;
+}
+
+.odd_course {
+	width: 500px;
+}
+
+.odd_dm {
+	text-align: center;
+	width: 100px;
+}
+
+.odd_ects {
+	text-align: center;
+	width: 100px;
+}
+
+#warning {
+	text-align: center;
+	color: red;
+	font-size: 14px
+}
+
+#final_grade_title {
+	font-size: 32px;
+	color: red;
+}
